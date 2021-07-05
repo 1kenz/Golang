@@ -1,6 +1,9 @@
-package main
+package variables
 
-func main(){
+import "fmt"
+
+func Demo1() {
+
 	// fmt.Println("Hello from go!")
 
 	//! Variables
@@ -22,12 +25,19 @@ func main(){
 	// fmt.Println(100 + 100 * tax2)
 
 	// var tax3 int = 111
- 	// tax4 := "Ken Den"
-	
+	// tax4 := "Ken Den"
+
 	// fmt.Printf("Data type : %T", tax3)
 	// fmt.Printf("Data type : %T", tax4)
 
 	//! Boolean
-	
+	var state bool = false
+	// state1 := true
+
+	string1 := "Ken"
+	string2 := "Den"
+
+	state = string1 == string2
+	fmt.Println(state)
 
 }
