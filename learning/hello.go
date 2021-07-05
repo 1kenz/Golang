@@ -9,12 +9,18 @@ func main(){
 	// var y int = 7
 	// var sum int = x + y
 
-	x := 5
-	y := 7
-	sum := x + y
+	// x := 5
+	// y := 7
+	// sum := x + y
 
-	fmt.Println(sum)
+	// fmt.Println(sum)
 
-
+	// if x > 6 {
+	// 	fmt.Println("More than 6 :)")
+	// } else if x < 6 {
+	// 	fmt.Println("Less than 6 ")
+	// } else{
+	// 	fmt.Println("???")
+	// }
 
 }
