@@ -1,6 +1,9 @@
 package main
 
-import "golessons/conditionals"
+import (
+	"golessons/loops"
+)
+
 
 
 func main() {
@@ -9,5 +12,6 @@ func main() {
 
 	// conditionals.Demo1()
 	// conditionals.Demo2()
-	conditionals.Workshop()
+	// conditionals.Workshop()
+	loops.Demo1()
 }
