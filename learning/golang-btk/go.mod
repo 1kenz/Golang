@@ -1,3 +1,3 @@
-module golesson
+module golessons
 
 go 1.16

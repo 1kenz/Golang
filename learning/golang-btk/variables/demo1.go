@@ -27,7 +27,7 @@ func Demo1() {
 	// var tax3 int = 111
 	// tax4 := "Ken Den"
 
-	// fmt.Printf("Data type : %T", tax3)
+	// fmt.Printf("Data type : %T\n", tax3)
 	// fmt.Printf("Data type : %T", tax4)
 
 	//! Boolean
