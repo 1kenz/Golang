@@ -7,7 +7,8 @@ func Workshop() {
 	// number2 := 55
 	// number3 := 22
 
-	number1, number2, number3 := 555, 777, 10
+	// number1, number2, number3 := 555, 777, 10
+	var number1, number2, number3 int = 555, 777, 10
 
 	max := number1
 
