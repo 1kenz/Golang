@@ -32,7 +32,18 @@ func Workshop() {
 
 		}
 	}
-	fmt.Printf("Thats correct!!! %v prediction", predictionCounter)
+
+	predictionState :=""
+
+	if predictionCounter > 0 && predictionCounter <= 3 {
+		predictionState = "perfect"
+	} else if predictionCounter > 3 && predictionCounter <= 6 {
+		predictionState = "good"
+	} else {
+		predictionState = "bad"
+	}
+
+	fmt.Printf("Thats correct!!! %v prediction : %v", predictionCounter, predictionState)
 
 				// fmt.Println(prediction)
 				// fmt.Println(number)
