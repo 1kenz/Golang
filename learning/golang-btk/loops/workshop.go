@@ -11,8 +11,11 @@ func Workshop() {
 	
 	prediction := 0
 
+	predictionCounter := 0
+
 	fmt.Println("Start prediction!")
 	fmt.Scanln(&prediction)
+	predictionCounter += 1
 
 
 	for number != prediction {
@@ -20,12 +23,16 @@ func Workshop() {
 		if number < prediction {
 			fmt.Println("Lower")
 			fmt.Scanln(&prediction)
+			predictionCounter += 1
+
 		} else if number > prediction {
 			fmt.Println("Higher")
 			fmt.Scanln(&prediction)
+			predictionCounter += 1
+
 		}
 	}
-	fmt.Println("Thats correct!!!")
+	fmt.Printf("Thats correct!!! %v prediction", predictionCounter)
 
 				// fmt.Println(prediction)
 				// fmt.Println(number)
