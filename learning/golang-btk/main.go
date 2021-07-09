@@ -1,6 +1,10 @@
 package main
 
-import "golessons/slices"
+import (
+	"fmt"
+	"golessons/functions"
+)
+
 
 func main() {
 	// variables.Demo1()
@@ -20,6 +24,19 @@ func main() {
 	// arrays.Demo3()
 	// arrays.Demo4()
 	// slices.Demo1()
-	slices.Demo2()
+	// slices.Demo2()
+	// functions.Hi()
+	// Summary := functions.Sum(1,5)
+	// fmt.Println(Summary)
+	// result1, result2, result3, result4 := functions.Calculate(17,3)
+	// fmt.Println("Summary :", result1)
+	// fmt.Println("Difference :", result2)
+	// fmt.Println("Multiply :", result3)
+	// fmt.Println("Divide :", result4)
 
+	var result = functions.SumVariadic(1, 5, 7, 9)
+	numberArray := []int{1, 2, 3, 4, 5}
+	var result1 = functions.SumVariadic(numberArray...)
+	fmt.Println(result)
+	fmt.Println(result1)
 }
