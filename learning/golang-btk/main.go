@@ -1,6 +1,6 @@
 package main
 
-import "golessons/arrays"
+import "golessons/slices"
 
 func main() {
 	// variables.Demo1()
@@ -18,6 +18,8 @@ func main() {
 	// arrays.Demo1()
 	// arrays.Demo2()
 	// arrays.Demo3()
-	arrays.Demo4()
+	// arrays.Demo4()
+	// slices.Demo1()
+	slices.Demo2()
 
 }
