@@ -1,9 +1,5 @@
 package main
 
-import (
-	"golessons/for_range"
-)
-
 
 func main() {
 	// variables.Demo1()
@@ -42,5 +38,17 @@ func main() {
 	// maps.Demo1()
 	// for_range.Demo1()
 	// for_range.Demo2()
-	for_range.Demo3()
+	// for_range.Demo3()
+
+	// pointers
+	// number := 7
+	// pointers.Demo1(&number)
+	// fmt.Println("Main method's number variable = ", number)
+
+	// numbers := []int{1, 2, 3, 4, 5}
+	// pointers.Demo2(numbers)
+	// fmt.Println("Main method's number = ", numbers[0])
+
+	
+
 }
