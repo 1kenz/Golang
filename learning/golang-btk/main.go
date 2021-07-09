@@ -1,6 +1,9 @@
 package main
 
-import "golessons/maps"
+import (
+	"golessons/for_range"
+)
+
 
 func main() {
 	// variables.Demo1()
@@ -36,5 +39,8 @@ func main() {
 	// fmt.Println(result)
 	// fmt.Println(result1)
 
-	maps.Demo1()
+	// maps.Demo1()
+	// for_range.Demo1()
+	// for_range.Demo2()
+	for_range.Demo3()
 }
