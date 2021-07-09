@@ -12,6 +12,10 @@ func (c customer) save() {
 	fmt.Println(c.firstName, "Added.")
 }
 
+func (c customer) update() {
+	fmt.Println(c.firstName, "updated.")
+}
+
 func Demo2() {
 	c := customer{
 		firstName: "John",
@@ -19,4 +23,5 @@ func Demo2() {
 		age:      30,
 	}
 	c.save()
+	c.update()
 }
