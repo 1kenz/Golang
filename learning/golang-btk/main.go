@@ -1,5 +1,6 @@
 package main
 
+import "golessons/structs"
 
 func main() {
 	// variables.Demo1()
@@ -49,6 +50,7 @@ func main() {
 	// pointers.Demo2(numbers)
 	// fmt.Println("Main method's number = ", numbers[0])
 
-	
+	// structs.Demo1()
+	structs.Demo2()
 
 }
