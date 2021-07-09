@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"golessons/functions"
-)
-
+import "golessons/maps"
 
 func main() {
 	// variables.Demo1()
@@ -34,9 +30,11 @@ func main() {
 	// fmt.Println("Multiply :", result3)
 	// fmt.Println("Divide :", result4)
 
-	var result = functions.SumVariadic(1, 5, 7, 9)
-	numberArray := []int{1, 2, 3, 4, 5}
-	var result1 = functions.SumVariadic(numberArray...)
-	fmt.Println(result)
-	fmt.Println(result1)
+	// var result = functions.SumVariadic(1, 5, 7, 9)
+	// numberArray := []int{1, 2, 3, 4, 5}
+	// var result1 = functions.SumVariadic(numberArray...)
+	// fmt.Println(result)
+	// fmt.Println(result1)
+
+	maps.Demo1()
 }
