@@ -1,6 +1,10 @@
 package main
 
-import "golessons/structs"
+import (
+	"fmt"
+	"golessons/channels"
+)
+
 
 func main() {
 	// variables.Demo1()
@@ -51,6 +55,21 @@ func main() {
 	// fmt.Println("Main method's number = ", numbers[0])
 
 	// structs.Demo1()
-	structs.Demo2()
+	// structs.Demo2()
+
+	// go go_routines.EvenNumbers()
+	// go go_routines.OddNumbers()
+	// time.Sleep(time.Second* 5)
+	// fmt.Println("End of program")
+
+	EvenNumbersCn := make(chan int)
+	OddNumbersCn := make(chan int)
+	go channels.EvenNumbers(EvenNumbersCn)
+	go channels.OddNumbers(OddNumbersCn)
+
+	EvenNumberTotal, OddNumberTotal := <- EvenNumbersCn, <-OddNumbersCn
+
+	Multiply := EvenNumberTotal * OddNumberTotal 
+	fmt.Println("Multiply :", Multiply)
 
 }
