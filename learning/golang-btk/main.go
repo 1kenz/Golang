@@ -68,6 +68,7 @@ func main() {
 	// Multiply := EvenNumberTotal * OddNumberTotal
 	// fmt.Println("Multiply :", Multiply)
 
-	interfaces.Demo1()
+	// interfaces.Demo1()
+	interfaces.Demo2()
 
 }
