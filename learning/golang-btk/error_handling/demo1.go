@@ -7,11 +7,19 @@ import (
 
 
 func Demo1() {
-	 f,err := os.Open("demo1.txt")  // return file, error
+	f,err := os.Open("demo11.txt")  // return file, error
 
-	 if err != nil {
-		fmt.Println("File not found!") // handle error
+	// type assertion
+	if err != nil {
+		if pErr, ok := err.(*os.PathError); ok {
+		fmt.Println("File not found!", pErr.Path) // handle error
+		return
+		} else {
+			fmt.Println("File not found!")
+			return
+			} 
 	} else {
 		fmt.Println(f.Name()+ " opened!")
+		return
 	}	
 }
