@@ -1,7 +1,5 @@
 package main
 
-import "golessons/interfaces"
-
 func main() {
 	// variables.Demo1()
 	// fmt.Println()
@@ -69,6 +67,6 @@ func main() {
 	// fmt.Println("Multiply :", Multiply)
 
 	// interfaces.Demo1()
-	interfaces.Demo2()
+	// interfaces.Demo2()
 
 }
