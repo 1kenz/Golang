@@ -1,6 +1,9 @@
 package main
 
-import deferstatement "golessons/defer_statement"
+import (
+	errorhandling "golessons/error_handling"
+)
+
 
 func main() {
 	// variables.Demo1()
@@ -75,5 +78,7 @@ func main() {
 	// deferstatement.B()
 
 	// deferstatement.Test()
-	deferstatement.Demo3()
+	// deferstatement.Demo3()
+
+	errorhandling.Demo1()
 }
