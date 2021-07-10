@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"golessons/channels"
-)
-
+import "golessons/interfaces"
 
 func main() {
 	// variables.Demo1()
@@ -62,14 +58,16 @@ func main() {
 	// time.Sleep(time.Second* 5)
 	// fmt.Println("End of program")
 
-	EvenNumbersCn := make(chan int)
-	OddNumbersCn := make(chan int)
-	go channels.EvenNumbers(EvenNumbersCn)
-	go channels.OddNumbers(OddNumbersCn)
+	// EvenNumbersCn := make(chan int)
+	// OddNumbersCn := make(chan int)
+	// go channels.EvenNumbers(EvenNumbersCn)
+	// go channels.OddNumbers(OddNumbersCn)
 
-	EvenNumberTotal, OddNumberTotal := <- EvenNumbersCn, <-OddNumbersCn
+	// EvenNumberTotal, OddNumberTotal := <- EvenNumbersCn, <-OddNumbersCn
 
-	Multiply := EvenNumberTotal * OddNumberTotal 
-	fmt.Println("Multiply :", Multiply)
+	// Multiply := EvenNumberTotal * OddNumberTotal
+	// fmt.Println("Multiply :", Multiply)
+
+	interfaces.Demo1()
 
 }
