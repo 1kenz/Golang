@@ -88,5 +88,5 @@ func main() {
 	// stringfunctions.Demo1()
 	// stringfunctions.Demo2()
 	
-	restful.Demo1()
+	restful.Demo2()
 }
