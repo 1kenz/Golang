@@ -1,7 +1,7 @@
 package main
 
 import (
-	stringfunctions "golessons/string_functions"
+	"golessons/restful"
 )
 
 
@@ -86,5 +86,7 @@ func main() {
 	// fmt.Println(errorhandling.Prediction2(44))
 
 	// stringfunctions.Demo1()
-	stringfunctions.Demo2()
+	// stringfunctions.Demo2()
+	
+	restful.Demo1()
 }
