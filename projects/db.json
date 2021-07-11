@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Laptop",
+      "categoryId": 1,
+      "unitPrice": 4999
+    },
+    {
+      "id": 2,
+      "productName": "Dell",
+      "categoryId": 1,
+      "unitPrice": 14999
+    },
+    {
+      "id": 3,
+      "productName": "Asus",
+      "categoryId": 1,
+      "unitPrice": 9999
+    },
+    {
+      "id": 4,
+      "productName": "Mouse",
+      "categoryId": 2,
+      "unitPrice": 19.99
+    },
+    {
+      "id": 5,
+      "productName": "Keyboard",
+      "categoryId": 1,
+      "unitPrice": 59.99
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Computers"
+    },
+    {
+      "id": 2,
+      "categoryName": "Drinks"
+    }
+  ]
+}
