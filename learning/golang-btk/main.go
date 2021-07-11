@@ -1,6 +1,10 @@
 package main
 
-import errorhandling "golessons/error_handling"
+import (
+	"fmt"
+	errorhandling "golessons/error_handling"
+)
+
 
 func main() {
 	// variables.Demo1()
@@ -79,5 +83,6 @@ func main() {
 	// deferstatement.Demo3()
 
 	// errorhandling.Demo1()
-	errorhandling.Demo2()
+	// errorhandling.Demo2()
+	fmt.Println(errorhandling.Prediction2(44))
 }
